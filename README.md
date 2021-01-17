@@ -1,6 +1,5 @@
-# Welcome to GitHub V2
-
-Welcome to GitHub—where millions of developers work together on software. Ready to get started? Let’s learn how this all works by building and publishing your first GitHub Pages website!
+# Hi, its me Raymond!
+Thanks for taking the time to visit my github! As a recent master graduate from San Jose State, I'm estatic to show off my skills to be a future engineer in AI-related applications! I know things look a bit bare right now, but I'm constantly adding more to my skill set. I hope you enjoy the progress I made :)
 
 ## Repositories
 
