@@ -14,6 +14,22 @@ This program is also implemented as a --web service--, and a --docker container-
 5. After each sentence has been scored, average all the scores together. 
 
 
+## How to run
+
+I've created three ways to view my solution.
+
+1. Simply run Similar_Texts.py with the three txt files (sample1.txt, sample2.txt, sample3.txt). 
+```
+python Similar_Texts.py
+```
+
+The program itself will call the function that performs the similarity calculations. sample1.txt and sample2.txt hard coded in lines 61, 62. You can edit these lines to change which sample you would like to use.  (Note: I would have used argparse to throw these files in the command line, but did not want to violate the 'no libraries' restriction.
+
+2. Run webapp.py if you have flask installed or head to 
+
+3. Get the docker container from docker hub. 
+  
+
 ## Decisions
 -Do I count punction or only words?
 To my knowledge, without the use of the re library, the built-in split operation can only have one seperator. This does not matter since the samples do not contain any question or exclaimation marks. Punctuation at the end of a sentence I believe is negligible since a period, question mark, or exclamation mark should not be deemed any different in terms of content.
